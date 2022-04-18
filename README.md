@@ -8,8 +8,8 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-### 1. Authenticated Cross-Site Scripting (XSS) via Media File Metadata (CVE-2017-6814)
-  - [ ] Summary: 
+### 1. Authenticated XSS in comments (CVE-2019-9787)
+  - [ ] Summary: Wordpress before 5.1.1 does not properly filter comments, leading to remote code execution by unauthenticated user configuration.  
     - Vulnerability types: Cross-Site Scripting (XSS)
     - Tested in version:4.2
     - Fixed in version: 4.2.13
@@ -17,7 +17,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 2. Authenticated XSS in comments (CVE-2019-9787)
+### 2. Authenticated Cross-Site Scripting (XSS) via Media File Metadata (CVE-2017-6814)
   - [ ] Summary: Wordpress before 5.1.1 does not properly filter comments, leading to remote code execution by unauthenticated user configuration.
     - Vulnerability types: Authenticated XSS in comments field
     - Tested in version: 4.2
