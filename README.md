@@ -25,7 +25,9 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
+    - [Link 2](https://www.exploit-db.com/exploits/36844)
+
 ### 3. User Enumeration (CVE-2020-7918)
   - [ ] Summary: 
     - Vulnerability types:
