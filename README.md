@@ -71,7 +71,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 - Setting up the enviroment was challenging
-- Once VM- kali linux, WP destillery and vagrant where up and running finding vulneravilities in wordpress was easy with the aid of wpscan
+- Once VM- kali linux, WPdestillery and vagrant where up and running finding vulneravilities in WordPress was easy with the aid of wpscan
 
 ## License
 
