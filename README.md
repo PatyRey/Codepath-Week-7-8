@@ -15,8 +15,8 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.23
   - [ ] GIF Walkthrough: <img src = "Xss01.gif">
   - [ ] Steps to recreate: 
-        1- Insert the value in the input attribuute
-        2- Once the comment is approved the alert will appear on the screen
+        <li><ol> Insert the value in the input attribuute</ol>
+  <ol> Once the comment is approved the alert will appear on the screen</ol></li>
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
     - [Link 2](https://www.exploit-db.com/exploits/36844)
