@@ -18,6 +18,7 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
     - [Link 2](https://www.exploit-db.com/exploits/36844)
+    - [Link 3](https://wpdistillery.php)
 
 ### 2. Authenticated Cross-Site Scripting (XSS) via Media File Metadata (CVE-2017-6814)
   - [ ] Summary: Wordpress before 5.1.1 does not properly filter comments, leading to remote code execution by unauthenticated user configuration.
@@ -29,6 +30,7 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/2c5632d8-4d40-4099-9e8f-23afde51b56e)
     - [Link 2](https://wordpress.org/news/2017/03/wordpress-4-7-3-security-and-maintenance-release/)
+    - [Link 3](https://wpdistillery.php)
 
 ### 3. User Enumeration (CVE-2020-7918)
   - [ ] Summary: 
@@ -38,7 +40,8 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: <img src = "login.gif">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wpdistillery.php)
+    - [Link 2](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 
 ## Assets
