@@ -9,13 +9,13 @@ Time spent: **X** hours spent in total
 ## Pentesting Report
 
 ### 1. Authenticated XSS in comments (CVE-2019-9787)
-  - [ ] Summary: Wordpress before 5.1.1 does not properly filter comments, leading to remote code execution by unauthenticated user configuration.  
+  - [ ] Summary: Wordpress did not properly filter comments, leading to remote code execution by unauthenticated user configuration.  
     - Vulnerability types: Cross-Site Scripting (XSS)
     - Tested in version:3.9-5.1
     - Fixed in version: 4.2.23
   - [ ] GIF Walkthrough: <img src = "Xss01.gif">
   - [ ] Steps to recreate: 
-    - Insert the value in the input attribuute
+    - Insert the value in the input attribute
     - Once the comment is approved the alert will appear on the screen
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
@@ -23,24 +23,33 @@ Time spent: **X** hours spent in total
     - [Link 3](https://wpdistillery.php)
 
 ### 2. Authenticated Cross-Site Scripting (XSS) via Media File Metadata (CVE-2017-6814)
-  - [ ] Summary:
+  - [ ] Summary: 
     - Vulnerability types: Authenticated XSS in comments field
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: <img src = "Xss02.gif">
+  - [ ] GIF Walkthrough: <img src = "Xss02.gif">
+  - [ ] Steps to recreate: 
+    - Create a new post 
+    - Click on add media
+    - Select an image
+    - On the Caption input the XSS query
+
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/2c5632d8-4d40-4099-9e8f-23afde51b56e)
     - [Link 2](https://wordpress.org/news/2017/03/wordpress-4-7-3-security-and-maintenance-release/)
     - [Link 3](https://wpdistillery.php)
 
-### 3. User Enumeration (CVE-2020-7918)
-  - [ ] Summary: 
+### 3. User Enumeration (CVE-2017-5487)
+  - [ ] Summary: Before 4.7.1 WordPress does not properly restrict listing of post authors, which allows remote attackers to obtain sensitive information
     - Vulnerability types: User Authentication
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.7.1
   - [ ] GIF Walkthrough: <img src = "login.gif">
   - [ ] Steps to recreate: 
+    - in the login page type 'admin' in the user field
+    - input a password in the password field
+    - Press the login button 
+
   - [ ] Affected source code:
     - [Link 1](https://wpdistillery.php)
     - [Link 2](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
