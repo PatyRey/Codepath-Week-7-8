@@ -11,8 +11,8 @@ Time spent: **X** hours spent in total
 ### 1. Authenticated XSS in comments (CVE-2019-9787)
   - [ ] Summary: Wordpress before 5.1.1 does not properly filter comments, leading to remote code execution by unauthenticated user configuration.  
     - Vulnerability types: Cross-Site Scripting (XSS)
-    - Tested in version:4.2
-    - Fixed in version: 4.2.1
+    - Tested in version:3.9-5.1
+    - Fixed in version: 4.2.23
   - [ ] GIF Walkthrough: <img src = "Xss01.gif">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
@@ -21,7 +21,7 @@ Time spent: **X** hours spent in total
     - [Link 3](https://wpdistillery.php)
 
 ### 2. Authenticated Cross-Site Scripting (XSS) via Media File Metadata (CVE-2017-6814)
-  - [ ] Summary: Wordpress before 5.1.1 does not properly filter comments, leading to remote code execution by unauthenticated user configuration.
+  - [ ] Summary:
     - Vulnerability types: Authenticated XSS in comments field
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
@@ -34,8 +34,8 @@ Time spent: **X** hours spent in total
 
 ### 3. User Enumeration (CVE-2020-7918)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
+    - Vulnerability types: User Authentication
+    - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: <img src = "login.gif">
   - [ ] Steps to recreate: 
