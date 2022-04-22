@@ -1,5 +1,3 @@
-# Codepath-Week-7-8
-
 # Project 7 - WordPress Pentesting
 
 Time spent: **12** hours spent in total
